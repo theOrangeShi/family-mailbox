@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_name_verification">true</bool>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#2196F3</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">家庭留言箱</string>
+    <string name="default_server_url">https://familymailbox.thepurple.ggff.net</string>
+    <string name="family_members">爸爸,妈妈,儿子,女儿</string>
+    <style name="FullScreenTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+    <style name="SmallActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">32dp</item>
+        <item name="android:width">32dp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    <style name="Theme.FamilyMailbox" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_blue_bright</item>
+        <item name="colorPrimaryVariant">@android:color/holo_blue_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="actionButtonStyle">@style/SmallActionButtonStyle</item>
+    </style>
+</resources>

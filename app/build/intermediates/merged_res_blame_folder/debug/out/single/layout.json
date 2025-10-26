@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.familymailbox.app-mergeDebugResources-39:/layout/item_message.xml",
+        "source": "com.familymailbox.app-main-42:/layout/item_message.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.familymailbox.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-mergeDebugResources-39:/layout/activity_image.xml",
+        "source": "com.familymailbox.app-main-42:/layout/activity_image.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-mergeDebugResources-39:/layout/dialog_server_settings.xml",
+        "source": "com.familymailbox.app-main-42:/layout/dialog_server_settings.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-mergeDebugResources-39:/layout/dialog_welcome_message.xml",
+        "source": "com.familymailbox.app-main-42:/layout/dialog_welcome_message.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-mergeDebugResources-39:/layout/dialog_welcome.xml",
+        "source": "com.familymailbox.app-main-42:/layout/dialog_welcome.xml"
+    }
+]

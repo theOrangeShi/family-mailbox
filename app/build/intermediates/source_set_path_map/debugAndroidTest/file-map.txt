@@ -1,0 +1,4 @@
+com.familymailbox.test.app-androidTest-0 /Users/s/family mailbox/app/build/generated/res/resValues/androidTest/debug
+com.familymailbox.test.app-mergeDebugAndroidTestResources-1 /Users/s/family mailbox/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.familymailbox.test.app-mergeDebugAndroidTestResources-2 /Users/s/family mailbox/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.familymailbox.test.app-merged_res-3 /Users/s/family mailbox/app/build/intermediates/merged_res/debugAndroidTest

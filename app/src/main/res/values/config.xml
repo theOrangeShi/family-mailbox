@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 预配置的服务器地址 -->
+    <!-- 生产环境服务器 (HTTPS已配置) -->
+    <string name="default_server_url">https://example.com</string>
+    
+    <!-- 允许访问的家庭成员姓名列表，用逗号分隔 -->
+    <string name="family_members">爸爸,妈妈,儿子,女儿</string>
+    
+    <!-- 是否启用姓名验证（设置为 false 则所有人都可以使用） -->
+    <bool name="enable_name_verification">true</bool>
+</resources>
+
+
+

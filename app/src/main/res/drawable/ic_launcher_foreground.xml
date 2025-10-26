@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 信封主体 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,60 L20,75 L88,75 L88,60 L20,60 Z"/>
+    
+    <!-- 信封底部 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,75 L20,85 L88,85 L88,75 L20,75 Z"/>
+    
+    <!-- 信封顶部三角形翻盖 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,60 L54,40 L88,60 L88,75 L20,75 Z"/>
+    
+</vector>

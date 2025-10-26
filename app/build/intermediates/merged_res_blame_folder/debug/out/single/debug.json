@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.familymailbox.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "com.familymailbox.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/layout_item_message.xml.flat",
+        "source": "com.familymailbox.app-main-42:/layout/item_message.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/layout_dialog_welcome_message.xml.flat",
+        "source": "com.familymailbox.app-main-42:/layout/dialog_welcome_message.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.familymailbox.app-main-42:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/layout_dialog_welcome.xml.flat",
+        "source": "com.familymailbox.app-main-42:/layout/dialog_welcome.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/xml_file_paths.xml.flat",
+        "source": "com.familymailbox.app-main-42:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.familymailbox.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/layout_dialog_server_settings.xml.flat",
+        "source": "com.familymailbox.app-main-42:/layout/dialog_server_settings.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/layout_activity_image.xml.flat",
+        "source": "com.familymailbox.app-main-42:/layout/activity_image.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/xml_network_security_config.xml.flat",
+        "source": "com.familymailbox.app-main-42:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.familymailbox.app-merged_res-40:/menu_main_menu.xml.flat",
+        "source": "com.familymailbox.app-main-42:/menu/main_menu.xml"
+    }
+]

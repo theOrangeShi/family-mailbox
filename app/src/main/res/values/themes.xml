@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FamilyMailbox" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_blue_bright</item>
+        <item name="colorPrimaryVariant">@android:color/holo_blue_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="actionButtonStyle">@style/SmallActionButtonStyle</item>
+    </style>
+
+    <style name="FullScreenTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+    
+    <style name="SmallActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">32dp</item>
+        <item name="android:width">32dp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+</resources>
