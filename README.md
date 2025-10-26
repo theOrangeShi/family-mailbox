@@ -1,4 +1,4 @@
-# 家庭留言箱 <img src="https://img.xiaoqikeji.com/image/Ulz7FSbHT9yaiHfu1Map5J.jpg" alt="app图标" width="50">
+# 家庭留言箱 <img src="phttps://img.xiaoqikeji.com/image/9eQx7okJVvOsPJEwvB8p1T.jpg" alt="app图标" width="50">
 
 一个 Android 应用，用于家庭成员之间的通讯。
 
@@ -28,8 +28,9 @@
 6. **无发送人显示**，仅作为家人间共享
 7. **无发送时间显示**，保留发送人的隐私
 8. **本项目为github开源项目**，任何人均可部署并进行自定义
-![消息界面](https://img.xiaoqikeji.com/image/lltw6xCDMUlbDT5HehRWFi.jpg)
-![服务器调试界面](https://img.xiaoqikeji.com/image/Ulz7FSbHT9yaiHfu1Map5J.jpg)
+
+<img src="https://img.xiaoqikeji.com/image/lltw6xCDMUlbDT5HehRWFi.jpg" alt="app图标" width="200">
+<img src="https://img.xiaoqikeji.com/image/Ulz7FSbHT9yaiHfu1Map5J.jpg" alt="app图标" width="200">
 
 
 # 家庭留言箱配置指南
