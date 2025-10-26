@@ -1,4 +1,4 @@
-# 家庭留言箱 ![app图标](https://img.xiaoqikeji.com/image/9eQx7okJVvOsPJEwvB8p1T.jpg|50)
+# 家庭留言箱 <img src="https://img.xiaoqikeji.com/image/Ulz7FSbHT9yaiHfu1Map5J.jpg" alt="app图标" width="50">
 
 一个 Android 应用，用于家庭成员之间的通讯。
 
