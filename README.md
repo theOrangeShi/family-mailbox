@@ -49,9 +49,6 @@
 
 <!-- 方式2: 使用IP地址和端口 -->
 <string name="default_server_url">http://192.168.1.100:5000</string>
-
-<!-- 方式3: 不使用服务器同步（本地模式）(可用于调试) -->
-<string name="default_server_url"></string>
 ```
 
 ### 3. 配置家庭成员名单
@@ -67,11 +64,15 @@
 姓名区分大小写
 不在名单中的用户将使用本地模式，消息不会同步
 
-### 4. 用Android Studio打开并编译成apk
+### 4. 服务端部署
+修改部署脚本 deploy_to_vps.sh 的服务器参数，并执行部署
+
+
+### 5. 用Android Studio打开项目并编译成apk
 
 打开以后，等待同步gradle, 点击build -> Assemble
-使用默认提供的内置设备进行调试，或手机链接自己的android手机并打开开发者模式进行调试
-确定服务器连接无误后（app内右上角有测试），generate APKS
+使用默认提供的内置设备进行调试（或手机链接自己的android手机并打开开发者模式进行调试）
+确定服务器连接无误后（app内右上角有测试），生成APK(build里的generate APKS)
 将打包好的apk分发给家人使用
 
 
