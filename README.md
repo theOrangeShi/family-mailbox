@@ -28,15 +28,7 @@
 7. **无发送时间显示**，保留发送人的隐私
 8. **本项目为github开源项目**，任何人均可部署并进行自定义
 
-## 使用方法
 
-1. 在底部输入框输入文字（可选）
-2. 点击相机图标选择图片（可选）
-3. 点击上传图标选择文件（可选）
-4. 点击发送按钮即可
-5. 所有留言会显示在公共区域
-
-## 构建说明
 # 家庭留言箱配置指南
 
 ## 📝 编译前配置
@@ -71,59 +63,28 @@
 ```
 
 **注意**：
-- 姓名需要**完全匹配**才能连接到服务器
-- 姓名区分大小写
-- 不在名单中的用户将使用本地模式，消息不会同步
+姓名需要**完全匹配**才能连接到服务器
+姓名区分大小写
+不在名单中的用户将使用本地模式，消息不会同步
+
+### 4. 用Android Studio打开并编译成apk
+
+打开以后，等待同步gradle, 点击build -> Assemble
+使用默认提供的内置设备进行调试，或手机链接自己的android手机并打开开发者模式进行调试
+确定服务器连接无误后（app内右上角有测试），generate APKS
+将打包好的apk分发给家人使用
 
 
-## 📱 用户首次使用流程
 
-### 启用姓名验证时（`enable_name_verification = true`）
+## 📱 用户端首次使用流程
+
+### 启用姓名验证时
 
 1. **首次打开应用** → 显示欢迎界面
 2. **输入姓名** → 用户输入自己的姓名
 3. **验证姓名**：
    - ✅ **姓名在白名单中** → 自动连接到预配置的服务器，消息云端同步
    - ❌ **姓名不在白名单中** → 连接失败，无法与服务器通讯
-
-
-## 🔧 配置示例
-
-### 示例 1：私密家庭使用（推荐）
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- 使用您的服务器地址 -->
-    <string name="default_server_url">https://family.example.com</string>
-    
-    <!-- 只有这4个家庭成员可以同步 -->
-    <string name="family_members">张三,李四,王五,赵六</string>
-    
-    <!-- 启用验证 -->
-    <bool name="enable_name_verification">true</bool>
-</resources>
-```
-
-**效果**：
-- 张三、李四、王五、赵六输入姓名后自动连接服务器
-- 其他人（如"小明"）输入姓名后只能使用本地模式
-- 保护隐私，防止非家庭成员访问
-
-
-### 示例 2：纯本地模式（调试专用）
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- 留空表示不使用服务器 -->
-    <string name="default_server_url"></string>
-    
-    <string name="family_members"></string>
-    
-    <bool name="enable_name_verification">true</bool>
-</resources>
-```
 
 
 
